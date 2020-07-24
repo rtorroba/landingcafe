@@ -1,0 +1,82 @@
+/*-------------------------
+--------FORMULARIO*-------
+-------------------------*/
+#formulario {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+/*-------HEADER AND NAV --------*/
+
+#logoCafe {
+  width: 10%;
+  height: 70px;
+  margin: 40px;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+#funcionaYaHombre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+}
+#navBar {
+  text-transform: uppercase;
+  border: dashed green 1px;
+  padding: 20px;
+  font-family: "Cinzel Decorative", cursive;
+}
+#navBar a {
+  border: dashed greenyellow 1px;
+  padding: 0px 20px;
+}
+* a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Cinzel Decorative", cursive;
+}
+#form {
+  background-color: brown;
+  border-radius: 20px;
+  color: antiquewhite;
+  position: absolute;
+  right: 30px;
+}
+/*--------PRIMERA SECTION-------
+-------------------------------*/
+section h1 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 35px;
+}
+section img {
+  width: 10%;
+  position: relative;
+  left: 1000px;
+}
+/*--------SEGUNDA SECTION-------
+-------------------------------*/
+h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: brown;
+  font-family: sans-serif;
+  font-weight: bold !important;
+}
+/*--------FOOTER-------
+-------------------------------*/
+#pie {
+  background-color: burlywood;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
